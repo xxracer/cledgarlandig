@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@700;800;900&family=Inter:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #af101a;
+  --color-primary-container: #d32f2f;
+  --color-secondary: #904d00;
+  --color-background: #f9f9f9;
+  
+  --font-headline: "Public Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.hero-gradient-overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.95) 100%);
+}
+
+.cta-gradient {
+  background: linear-gradient(45deg, var(--color-primary), var(--color-primary-container));
+}
+
+.emergency-glow {
+  box-shadow: 0 0 40px rgba(175, 16, 26, 0.4);
+}
