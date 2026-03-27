@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#af101a"/>
+
+  <!-- Shield Shape -->
+  <path d="M50 15 L75 25 L75 50 C75 70 65 85 50 92 C35 85 25 70 25 50 L25 25 Z" fill="#ffffff" stroke="#d32f2f" stroke-width="2"/>
+
+  <!-- Key Icon -->
+  <path d="M50 35 L50 45 M45 40 L55 40" stroke="#af101a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="50" cy="55" r="12" fill="none" stroke="#af101a" stroke-width="3"/>
+  <path d="M50 67 L50 75 M55 70 L60 70 M55 75 L60 75" stroke="#af101a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 24/7 Badge -->
+  <circle cx="72" cy="28" r="14" fill="#d32f2f"/>
+  <text x="72" y="32" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">24/7</text>
+</svg>

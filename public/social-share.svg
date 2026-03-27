@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#2d2d2d"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#af101a"/>
+      <stop offset="100%" style="stop-color:#d32f2f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative Elements -->
+  <circle cx="1100" cy="100" r="200" fill="#af101a" opacity="0.1"/>
+  <circle cx="100" cy="530" r="150" fill="#af101a" opacity="0.1"/>
+
+  <!-- Main Shield Icon -->
+  <g transform="translate(450, 180)">
+    <!-- Shield Shape -->
+    <path d="M150 20 L280 70 L280 180 C280 280 230 350 150 380 C70 350 20 280 20 180 L20 70 Z" fill="url(#accentGradient)"/>
+    <path d="M150 35 L270 80 L270 180 C270 270 225 335 150 365 C75 335 30 270 30 180 L30 80 Z" fill="#1a1a1a"/>
+
+    <!-- Key Icon Inside Shield -->
+    <g transform="translate(150, 200)">
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#af101a" stroke-width="8"/>
+      <path d="M0 -50 L0 -90" stroke="#af101a" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-25 -70 L25 -70" stroke="#af101a" stroke-width="8" stroke-linecap="round"/>
+      <path d="M0 50 L0 80" stroke="#af101a" stroke-width="8" stroke-linecap="round"/>
+      <path d="M30 60 L50 60 M30 80 L50 80" stroke="#af101a" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Main Text -->
+  <text x="600" y="80" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">CARLOCKSOUT</text>
+
+  <!-- Tagline -->
+  <text x="600" y="520" font-family="Arial Black, sans-serif" font-size="56" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">24/7 EMERGENCY LOCKSMITH</text>
+
+  <!-- Location -->
+  <text x="600" y="570" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#d32f2f" text-anchor="middle" letter-spacing="1">HOUSTON & GREATER AREAS INCLUDING COLLEGE STATION, TX</text>
+
+  <!-- Phone Number -->
+  <text x="600" y="615" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#af101a" text-anchor="middle">(713) 555-0199</text>
+
+  <!-- 24/7 Badge -->
+  <circle cx="950" cy="150" r="60" fill="url(#accentGradient)"/>
+  <text x="950" y="145" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#ffffff" text-anchor="middle">24/7</text>
+  <text x="950" y="175" font-family="Arial Black, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">SERVICE</text>
+</svg>

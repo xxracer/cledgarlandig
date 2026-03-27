@@ -1,0 +1,20 @@
+{
+  "name": "CarLocksOut - 24/7 Emergency Locksmith Houston",
+  "short_name": "CarLocksOut",
+  "description": "Fast, licensed locksmith in Houston & Greater Areas including College Station, TX. Car lockout, home lockout, commercial lockout, key programming.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f9f9",
+  "theme_color": "#af101a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "services"],
+  "lang": "en-US"
+}
